@@ -1,7 +1,7 @@
-l=input(" ")
+t=input(" ")
 vowel=['a','e','i','o','u','A','E','I','O','U']
-if(l>='a' and l<='z') or (l>='A' and l<='Z'):
-  if l in vowel:
+if(t>='a' and t<='z') or (t>='A' and t<='Z'):
+  if t in vowel:
     print("Vowel")
   else:
      print("Consonant")
