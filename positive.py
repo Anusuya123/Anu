@@ -1,10 +1,10 @@
 n=int(input())
 if(n>=1 and n<=100000):
-   print("positive ")
+	print("Positive")
 elif(n==0):
-    print("zero")
+	print("Zero")
 elif(n<0):
-   print("negative")
+	print("Negative")
 else:
-   print("not in range")	
+	print("Not in Range")
 	
